@@ -1,0 +1,44 @@
+/* Text gradient */
+.text-gradient {
+  background: linear-gradient(to right, #ffc107, #fd7e14, #dc3545);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Custom button styling */
+.btn-orange {
+  background: linear-gradient(to right, #fd7e14, #dc3545);
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-orange:hover {
+  background: linear-gradient(to right, #e67312, #c82333);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Form control styling */
+.form-control, .form-select {
+  transition: all 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #fd7e14;
+  box-shadow: 0 0 0 0.25rem rgba(253, 126, 20, 0.25);
+}
+
+/* Dark mode form controls */
+.bg-dark .form-control, 
+.bg-dark .form-select {
+  background-color: rgba(33, 37, 41, 0.5);
+  color: white;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.bg-dark .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,31 @@
+/* Background gradients
+.bg-gradient-light {
+  background: linear-gradient(135deg, rgba(255,237,213,1) 0%, rgba(255,255,255,1) 50%, rgba(255,231,231,1) 100%);
+}
+
+.bg-gradient-bottom {
+  background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 50%);
+}
+
+.bg-gradient-orange {
+  background: linear-gradient(135deg, #fd7e14 0%, #dc3545 100%);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #fd7e14, #dc3545);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hover-zoom {
+  transition: transform 0.5s ease;
+}
+
+.hover-zoom:hover {
+  transform: scale(1.03);
+}
+
+.transition-all {
+  transition: all 0.3s ease;
+} */

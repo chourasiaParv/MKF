@@ -1,0 +1,51 @@
+/* Text gradient
+.text-gradient {
+  background: linear-gradient(to right, #ffc107, #fd7e14, #dc3545);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.bg-gradient-bottom {
+  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 60%);
+}
+
+.btn-orange {
+  background: linear-gradient(to right, #fd7e14, #dc3545);
+  color: white;
+  border: none;
+}
+
+.btn-orange:hover {
+  background: linear-gradient(to right, #e67312, #c82333);
+  color: white;
+}
+
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.hover-zoom {
+  transition: transform 0.5s ease;
+}
+
+.hover-card:hover .hover-zoom {
+  transform: scale(1.05);
+}
+
+.btn-hover {
+  transition: all 0.3s ease;
+  transform: translateY(5px);
+  opacity: 0;
+}
+
+.hover-card:hover .btn-hover {
+  transform: translateY(0);
+  opacity: 1;
+} */

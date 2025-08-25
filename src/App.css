@@ -1,0 +1,181 @@
+.header-blur {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background: linear-gradient(-45deg, #dcd1ce) !important;
+  transition: all 0.6s ease;
+  border-bottom: 1px solid rgba(167, 34, 34, 0.1);
+}
+
+/* Mobile menu styles */
+.navbar-collapse {
+  z-index: 1050;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 90px;
+    left: 0;
+    right: 0;
+    background: rgba(20, 20, 20, 0.98) !important;
+    padding: 20px;
+    margin: 0 15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    backdrop-filter: none !important;
+  }
+
+  .navbar-collapse.show {
+    display: block;
+  }
+
+  .phone-number {
+    display: none;
+  }
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #dcd1ce 0%, #dcd1ce 50%, #dcd1ce 100%);
+}
+
+.top-bar-gradient {
+  background: linear-gradient(90deg, #050505 0%, #0a0909 50%, #0e0d0d 100%);
+}
+
+.nav-link-custom {
+  /* REMOVE JS VARIABLE HERE - set dynamically in React */
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+  padding: 0.75rem 1rem !important;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+
+.nav-link-custom:hover {
+  color: #dcd1ce !important;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.nav-link-custom.active {
+  color: #ffffff !important;
+  background: linear-gradient(45deg, #4f46e5, #7c3aed);
+  box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);
+}
+
+.btn-reservation {
+  background: linear-gradient(45deg, #ef4444, #dc2626);
+  border: none;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
+}
+
+.btn-reservation:hover {
+  background: linear-gradient(45deg, #dc2626, #b91c1c);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(239, 68, 68, 0.4);
+  color: white;
+}
+
+.social-icon {
+  color: #f3f6fa !important;
+  font-size: 1.1rem;
+  padding: 18px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  /* background: rgba(255, 255, 255, 0.05); */
+}
+
+.social-icon:hover {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+.navbar-brand-custom {
+  display: flex !important;
+  align-items: center !important;
+  margin-right: auto !important;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand-custom:hover {
+  transform: scale(1.05);
+}
+
+.logo-img {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+  border: 2px solid rgba(255, 255, 255, 0.2) !important;
+  transition: all 0.3s ease !important;
+  margin-left: 20px !important;
+}
+
+.logo-img:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.contact-info {
+  color: #e3e3ea;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.contact-info:hover {
+  color: #ffffff;
+}
+
+.navbar-toggler-custom {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggler-custom:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-toggler-custom:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.1);
+}
+
+.phone-number {
+  color: white;
+  font-weight: 500;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.phone-icon {
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+
+/* Force navbar layout: logo left, links right */
+.navbar {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+/* When navbar is scrolled */
+.navbar.scrolled .nav-link-custom {
+  color: #3d2940 !important;
+}
+
+.navbar.scrolled .social-icon {
+  color: #3d2940 !important;
+}
+
+.navbar.scrolled .phone-number {
+  color: #3d2940 !important;
+}

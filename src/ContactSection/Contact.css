@@ -1,0 +1,38 @@
+/* Text gradient */
+.text-gradient {
+  background: linear-gradient(to right, #fd7e14, #dc3545);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Background gradients */
+.bg-gradient-blue {
+  background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+}
+
+.bg-gradient-green {
+  background: linear-gradient(135deg, #198754, #157347);
+}
+
+.bg-gradient-purple {
+  background: linear-gradient(135deg, #6f42c1, #5a3d9a);
+}
+
+/* Hover effects */
+.hover-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,0.175) !important;
+}
+
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+.hover-card:hover .hover-scale {
+  transform: scale(1.1);
+}

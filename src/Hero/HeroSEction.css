@@ -1,0 +1,43 @@
+/* Custom styles
+.text-gradient {
+  background: linear-gradient(to right, #ffc107, #fd7e14, #dc3545);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hover-scale {
+  transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.hover-arrow {
+  transition: transform 0.3s ease;
+}
+
+.btn-primary:hover .hover-arrow {
+  transform: translateX(3px);
+}
+
+.hover-scale {
+  transition: all 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+.transition-opacity {
+  transition: opacity 1s ease-in-out;
+}
+
+.transition-all {
+  transition: all 10s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+} */
