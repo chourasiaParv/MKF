@@ -2,8 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/MKF/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Content Security Policy for GitHub Pages -->
+    <meta http-equiv="Content-Security-Policy" 
+          content="default-src 'self' https://cdnjs.cloudflare.com; 
+                   img-src 'self' data: https:; 
+                   style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; 
+                   font-src 'self' https://cdnjs.cloudflare.com;
+                   script-src 'self' 'unsafe-inline' 'unsafe-eval';" />
+    
     <title>MKF Restaurant</title>
 
     <!-- Bootstrap CSS -->
@@ -17,11 +26,20 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/MKF/assets/index-CdzJc3oK.js"></script>
+    <script type="module" crossorigin src="/MKF/assets/index-DxYCBOA4.js"></script>
     <link rel="stylesheet" crossorigin href="/MKF/assets/index-5xApGOrQ.css">
   </head>
   <body>
     <div id="root"></div>
+    
+    <!-- Loading fallback for GitHub Pages -->
+    <noscript>
+      <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
+        <h2>JavaScript Required</h2>
+        <p>Please enable JavaScript to run this application.</p>
+      </div>
+    </noscript>
+
     <!-- 👇 Only this line, no custom path -->
   </body>
 </html>
